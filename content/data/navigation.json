@@ -1,36 +1,26 @@
 {
   "_comment": "Edit once, applies to every page. type:'collection' menus rebuild themselves whenever content is added — you never list products or services by hand. A page whose frontmatter has menu: header, footer or both (optional menuLabel, menuOrder) adds itself after the links listed here; footer ones go into the column marked \"auto\": true, else the first. appearance sets the look: header theme light|dark|brand, layout right|center|left (where the menu sits), sticky, style bar|floating (a rounded bar with space around it), transparent (see-through over the top of the page until scrolled), shrink (lower once scrolled); footer theme dark|light|brand, layout columns|centered|minimal, showTagline, showContact, showSocial (icons for site.config.json social), cta { title, text, label, url } (a call-to-action strip above the footer), copyright (shown after © and the year; empty shows the site name and \"All rights reserved.\").",
   "header": {
-    "items": [
-      {
-        "label": "Blog",
-        "url": "/blog.html"
-      },
-      {
-        "label": "About",
-        "url": "/about.html"
-      }
-    ],
-    "cta": {
-      "label": "Contact us",
-      "url": "/contact.html"
-    }
+    "items": [],
+    "cta": null
   },
   "footer": [
     {
-      "title": "Pages",
+      "title": "Explore",
       "links": [
         {
-          "label": "About",
-          "url": "/about.html"
-        },
+          "label": "Home",
+          "url": "/"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "title": "Visit us",
+      "links": [
         {
-          "label": "Blog",
-          "url": "/blog.html"
-        },
-        {
-          "label": "Contact",
-          "url": "/contact.html"
+          "label": "Get directions",
+          "url": "https://www.google.com/maps/search/?api=1&query=Shop%204%2C%20Test%20Street%2C%20Example%20City%20(placeholder)"
         }
       ]
     }
@@ -55,14 +45,16 @@
       "layout": "right",
       "sticky": true,
       "style": "floating",
+      "transparent": false,
       "shrink": true
     },
     "footer": {
       "theme": "dark",
+      "layout": "columns",
       "showTagline": true,
       "showContact": true,
-      "copyright": "",
-      "showSocial": true
+      "showSocial": true,
+      "copyright": ""
     }
   }
 }

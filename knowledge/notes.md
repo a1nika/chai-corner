@@ -24,3 +24,17 @@ appear on the site belong in site.config.json or content/data/, not here.
 ## Avoid
 
 <!-- e.g. - Don't mention pricing on service pages. -->
+
+## Site profile
+
+<!-- Written by the setup questions. Change anything here and Claude follows it from then on. -->
+- Kind of website: Restaurant
+- Business: Chai Corner, a small tea stall
+- Sells: Masala chai and snacks
+- Site format: One page with about, menu, hours and contact sections
+- Menu: Three drinks, prices in dollars
+- Opening hours: 8am to 6pm
+- Email: Placeholder email
+- Your three drinks: Ginger Tea (Fresh ginger and tea), $3; Iced Lemon Tea (Cold and sharp), $4; Masala Chai (Spiced milk tea), $3
+- Pages: Home (/)
+- Still to ask me: What is your story in a few sentences?
