@@ -697,6 +697,11 @@ too. The proposal carries both partials, the CSS and the scripts in `"files"`; t
 allows the partials only with `data-designed="copied"`, detects support by the literal
 `--with-header`, and puts the standard ones back with its header and footer installer.
 
+`--own-chrome` keeps the page's own header and footer on that page alone, without the site's (frontmatter
+`ownChrome: true`, which `base.html` reads), and `--site-chrome` always gives it the site's. Without either,
+`ownChrome` in `edit-page.js` decides. The web app asks the owner when an HTML file is uploaded on its Files
+screen, and detects support by the literal `--own-chrome`.
+
 **Edit other markdown files with Claude**
 
 ```bash
